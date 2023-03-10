@@ -14,6 +14,7 @@ export default Section;
 
 Section.propTypes = {
   title: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
 };
 
 const Container = styled.section`
